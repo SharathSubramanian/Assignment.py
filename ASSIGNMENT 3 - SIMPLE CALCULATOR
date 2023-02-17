@@ -1,0 +1,24 @@
+x=int(input("Enter the first number:"))
+y=int(input("Enter the second number:"))
+print("1)Addition")
+print("2)Subtraction")
+print("3)Division")
+print("4)Multipliction")
+op=int(input("Enter your choice:"))
+if op>0 and op<=4:
+  print("")
+  print("")
+  if op == 1:
+    print("ADDITION,")
+    print(x,"+",y,"=",x+y)
+  if op == 2:
+    print("SUBTRACTION,")
+    print(x,"-",y,"=",x-y)
+  if op == 3:
+    print("DIVISION,")
+    print(x,"/",y,"=",x/y)
+  if op == 4:
+    print("MULTIPLICATION,")
+    print(x,"X",y,"=",x*y)
+else:
+  print("Invalid")
