@@ -1,1 +1,47 @@
+#Data types in python 
 
+#1)List
+
+l=[]
+n=int(input("Enter the number of elements:"))
+for i in range(n):
+  print("Enter the element",i+1,":")
+  a=int(input())
+  l.append(a)
+print("\n\nThe list:")
+print(l)
+
+#2)Dictionary
+
+d={}
+n=int(input("Enter the number of pairs:"))
+for i in range(n):
+  print("Enter key:")
+  key=input()
+  print("Enter value:")
+  value=input()
+  d[key]=value
+print("\n\nThe Dictionary:")
+print(d)
+
+#3)set
+
+set1=set()
+n=int(input("Enter the numbe of elements:"))
+for i in range(n):
+  print("Enter element",i+1,":")
+  a=input()
+  set1.add(a)
+print("\n\nThe set:")
+
+#4)Tuple
+
+tup=("apple","bananan",45,"int",)
+print("\n\nThe tuple:")
+print(tup)
+print(set1)
+
+#5)String
+
+s=str(input("Enter name:"))
+print("\n\nWelcome %s"% s)
